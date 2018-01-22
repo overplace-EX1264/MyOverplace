@@ -1,0 +1,294 @@
+angular.module("rubrica.services", [])
+
+.factory("Rubrica", function($http, $q, $cordovaToast, $cordovaContacts, $ionicPopup, ApiConfig, Cache){
+	var _this = this;
+	
+	_this.page = 1;
+	_this.more = true;
+	
+	/*
+	 * Lista dei contatti dal wmc
+	 */
+	Cache.wmcContactCache = [];
+    Cache.wmcContactCacheId = {};
+    
+    /*
+     * Lista dei contatti dal telefono
+     */
+    Cache.contactCache = [];
+    Cache.contactCacheId = {};
+    
+    /**
+     * Legge tutti i contatti presenti nel wmc
+     */
+    _this.readAll = function(){    	
+    	var deferred = $q.defer();
+
+    	var urlApiHmac = ApiConfig.ovpEndpointHmac+'app/post/rubrica/'+window.localStorage['id_scheda'];
+    	var param = { operation: 'read' };
+    	
+    	$http({
+            method: 'POST',
+            url: 	urlApiHmac,
+            data: 	JSON.stringify(param).replace(/\//g,'\\/'),
+            cache: 	false,
+            hmac: 	true
+        }).success(function(data, status, headers, config){
+        	if(data.hasOwnProperty('error') != false){
+        		deferred.reject();
+        	}else{
+    			var arr_dataId = [],
+    				wmcContactList = data['response'],
+    				count = data['response'].length;
+    			
+    			for (var i = 0; i < count; i++){
+    				wmcContactList[i].photos = new Array();
+    				wmcContactList[i].photos.push('https://www.overplace.com/avatar/ovp/avatar_default.png');
+    				
+    				//verifica se esiste l'id in cache
+    				if(Cache.wmcContactCacheId.hasOwnProperty(wmcContactList[i]['id'])){
+    					//verifica se l'oggetto in cache è diverso da quello in arrivo dal server
+    					var cache_obj = angular.extend({}, Cache.wmcContactCacheId[wmcContactList[i]['id']]),
+    						server_obj = angular.extend({}, wmcContactList[i]);
+    					
+    					delete cache_obj.$$hashKey;
+    					delete server_obj.$$hashKey;
+    					
+    					if (!equals(cache_obj, server_obj, false)){
+    						//aggiorna l'oggetto in cache
+    						var id_wmcContactCache = Cache.wmcContactCache.indexOf(Cache.wmcContactCacheId[wmcContactList[i]['id']]);
+    						Cache.wmcContactCache[id_wmcContactCache] = wmcContactList[i];
+    						Cache.wmcContactCacheId[wmcContactList[i]['id']] = wmcContactList[i];
+    					}
+    				}else{
+    					if (wmcContactList[i].telefono != '' || wmcContactList[i].email != ''){
+    						Cache.wmcContactCacheId[wmcContactList[i]['id']] = wmcContactList[i];
+    						Cache.wmcContactCache.push(wmcContactList[i]);
+    					}
+    				}
+
+    				arr_dataId.push(wmcContactList[i]['id']);
+    			}
+    			
+    			//rimuove dalla cache i dati non più presenti
+    			for (var id in Cache.wmcContactCacheId){
+    				if (arr_dataId.indexOf(id) == -1){
+    					Cache.wmcContactCache.splice(Cache.wmcContactCache.indexOf(Cache.wmcContactCacheId[id]), 1);
+    					delete Cache.wmcContactCacheId[id];
+    				}
+    			}
+    			
+    	        deferred.resolve(Cache.wmcContactCache);
+        	}
+        })
+        .error(function(data, status, headers, config){
+        	deferred.reject({ code: 1, message: "Impossibile recuperare i contatti dal wmc." });
+        });
+    	
+    	return deferred.promise;
+    }
+    
+    
+    /**
+	 * Legge i contatti del telefono
+	 */
+	_this.readContact = function(){
+		var deferred = $q.defer();
+		
+		$cordovaContacts
+			.find({ multiple: true })
+			.then(function (contatti){
+				var lenContatti = contatti.length;
+			
+				if (lenContatti == 0){
+					deferred.reject({ code: 2, message: "Nessun contatto presente" });
+				}else {
+					var lista = new Array(),
+						contatto,
+						listNumbers,
+						listEmails,
+						listPhotos,
+						displayName;
+					
+					for (var i = 0; i < lenContatti; i++){
+						contatto = contatti[i];
+						
+						//Se il contatto non ha almeno un numero di telefono o almeno un indirizzo email escludo il contatto
+						if (contatto.phoneNumbers == null && contatto.emails == null){ continue; }
+						
+						listNumbers = new Array();
+						listEmails = new Array();
+						listPhotos = new Array();
+						
+						if (contatto.phoneNumbers != null){
+							for (var k = 0; k < contatto.phoneNumbers.length; k++){ listNumbers.push(contatto.phoneNumbers[k].value); }	
+						}
+						
+						if (contatto.emails != null){
+							for (var k = 0; k < contatto.emails.length; k++){ listEmails.push(contatto.emails[k].value); }	
+						}
+						
+						if (contatto.photos != null){
+							for (var k = 0; k < contatto.photos.length; k++){ listPhotos.push(contatto.photos[k].value); }
+						}else {
+							listPhotos.push('https://www.overplace.com/avatar/ovp/avatar_default.png');
+						}
+						
+						displayName = (contatto.displayName != null) ? contatto.displayName : ((listEmails.length > 0) ? listEmails[0] : ((listNumbers.length > 0) ? listNumbers[0] : null));
+						
+						lista.push({
+							id: 		contatto.id,
+							name: 		displayName,
+							numbers: 	listNumbers,
+							emails: 	listEmails,
+							photos:		listPhotos,
+							status: {
+								telefono: false,
+								email: false,
+								checked: false
+							}
+						});
+						
+					}
+					(lista.length > 0) ? deferred.resolve(lista) : deferred.reject({ code: 3, message: "Nessun contatto valido." });
+				}
+			}, function(error){
+				deferred.reject({ code: 4, message: "Impossibile recuperare i contatti dal dispositivo." });
+			});
+		
+		return deferred.promise;
+	}
+    
+	
+	return {
+		
+		upload: function (contatti){
+			var q = $q.defer(),
+				urlApiHmac = ApiConfig.ovpEndpointHmac+'app/post/rubrica/'+window.localStorage['id_scheda'],
+				param = { operation: 'upload', contatti: contatti };
+	    	
+	    	$http({
+	            method: 'POST',
+	            url: 	urlApiHmac,
+	            data: 	JSON.stringify(param).replace(/\//g,'\\/'),
+	            cache: 	false,
+	            hmac: 	true
+	        }).success(function(data, status, headers, config){
+	        	console.log("success -> " + JSON.stringify(data));
+	        	if (data.hasOwnProperty('error') != false){
+	        		q.reject();
+	        	}else {
+	        		q.resolve();
+	        	}
+	        })
+	        .error(function(data, status, headers, config){
+	        	console.log("Error -> " + JSON.stringify(data));
+	        	q.reject();
+	        });
+	    	
+	    	return q.promise;
+			
+		},
+		
+		sincro: function(){
+			var list = {
+					telefono: new Array(),
+					wmc: new Array()
+				},
+				deferred = $q.defer();
+			
+			_this.readAll().then(function(wmcContacts){
+				_this.readContact().then(function(phoneContacts){
+					var lenPhoneContacts = phoneContacts.length,
+						lenWmcContacts = wmcContacts.length;
+					
+					if (lenPhoneContacts > 0 && lenWmcContacts == 0){
+						list.telefono = phoneContacts;
+					}else if (lenPhoneContacts > 0 && lenWmcContacts > 0){
+						
+						for (var i = 0; i < lenPhoneContacts; i++){							
+							for (var j = 0; j < phoneContacts[i].numbers.length; j++){
+								if (phoneContacts[i].numbers[j] == ''){ delete phoneContacts[i].numbers[j]; continue; }
+								for (var k = 0; k < lenWmcContacts; k++){
+									if (phoneContacts[i].numbers[j] == wmcContacts[k].telefono){
+										phoneContacts[i].status.telefono = true;
+										wmcContacts[k].statusTelefono = true;
+										break;
+									}
+								}
+							}
+							
+							for (var j = 0; j < phoneContacts[i].emails.length; j++){
+								if (phoneContacts[i].emails[j] == ''){ delete phoneContacts[i].emails[j]; continue; }
+								for (var k = 0; k < lenWmcContacts; k++){
+									if (phoneContacts[i].emails[j] == wmcContacts[k].email){
+										phoneContacts[i].status.email = true;
+										wmcContacts[k].statusEmail = true;
+										break;
+									}
+								}
+							}
+							
+							if (phoneContacts[i].status.telefono && phoneContacts[i].status.email){ phoneContacts[i].status.checked = true; }
+							
+							if (!phoneContacts[i].status.telefono && !phoneContacts[i].status.email){
+								list.telefono.push(phoneContacts[i]);
+							}
+						}
+						
+						for (var n = 0; n < lenWmcContacts; n++){
+							if (!wmcContacts[n].hasOwnProperty('statusTelefono') && !wmcContacts[n].hasOwnProperty('statusEmail')){
+								list.wmc.push(wmcContacts[n]);
+							}
+						}
+						
+					}
+					
+					deferred.resolve(list);
+				}, function(error){
+					if (wmcContacts.length > 0){
+						list.wmc = wmcContacts;
+						deferred.resolve(list);
+					}else {
+						deferred.reject(error);	
+					}
+				});
+				
+			}, function(error){
+				_this.readContact().then(function (phoneContacts){
+					list.telefono = phoneContacts;
+					deferred.resolve(list);
+				}, function (e){
+					deferred.reject({ code: 5, message: "Non ci sono contatti da caricare." });
+				});
+			});
+			
+			return deferred.promise;
+		},
+		
+		saveContact: function(contatto){
+			var deferred = $q.defer();
+			
+			var contactToSave = {
+				displayName: contatto.nome,
+				phoneNumbers: [{type: "mobile", value: contatto.telefono}],
+				emails: [{type: "other", value: contatto.email}]
+			};
+			
+			$cordovaContacts.save(contactToSave).then(function(result){
+				delete Cache.wmcContactCacheId[contatto.id];
+				Cache.wmcContactCache.splice(Cache.wmcContactCache.indexOf(contatto), 1);
+				
+				deferred.resolve(true);
+				$cordovaToast.show('Contatto salvato!','short','bottom');
+			}, function(error){
+				deferred.resolve(false);
+				$cordovaToast.show('Errore nel salvataggio del contatto!','short','bottom');
+			});
+			
+			return deferred.promise;
+		}
+	}
+	
+	
+})

@@ -1,0 +1,54 @@
+{
+  "name": "cordova-uglify",
+  "version": "0.1.6",
+  "description": "Cordova hook that allows you to uglify or minify your apps JavaScript and CSS.",
+  "homepage": "https://github.com/rossmartin/cordova-uglify",
+  "keywords": [
+    "cordova",
+    "uglify",
+    "minify",
+    "hook",
+    "hooks"
+  ],
+  "peerDependencies": {
+    "uglify-js": "2.4.14",
+    "ng-annotate": "0.15.4",
+    "clean-css": "2.2.2"
+  },
+  "author": {
+    "name": "Ross Martin"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rossmartin/cordova-uglify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rossmartin/cordova-uglify"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js",
+    "postuninstall": "node scripts/uninstall.js"
+  },
+  "gitHead": "63e77f342af61b5277a7694ae49adceb062e698b",
+  "_id": "cordova-uglify@0.1.6",
+  "_shasum": "cb241e1006f51116275cee4bdf039f1888a0e952",
+  "_from": "cordova-uglify@*",
+  "_npmVersion": "1.4.23",
+  "_npmUser": {
+    "name": "rossmartin",
+    "email": "rmartin311@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "rossmartin",
+      "email": "rmartin311@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "cb241e1006f51116275cee4bdf039f1888a0e952",
+    "tarball": "http://registry.npmjs.org/cordova-uglify/-/cordova-uglify-0.1.6.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/cordova-uglify/-/cordova-uglify-0.1.6.tgz"
+}

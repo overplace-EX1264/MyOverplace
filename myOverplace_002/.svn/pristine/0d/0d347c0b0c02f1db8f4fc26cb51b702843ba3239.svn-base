@@ -1,0 +1,156 @@
+angular.module("rubrica.controllers", [])
+
+.controller("RubricaCtrl", function($scope, $ionicPopover, $ionicPopup, $ionicLoading, $cordovaToast, Rubrica){
+	var _contatti = [];
+	
+	$scope.contatti = [];
+	$scope.wmc = [];
+	$scope.contact_selected = [];
+	$scope.filter = { value: "0" };
+	$scope.popover = null;
+	
+	$scope.selectContact = function (contatto){
+		contatto.checked = !contatto.checked;
+		if (contatto.checked){
+			$scope.contact_selected.push(contatto);
+		} else {
+			var index = $scope.contact_selected.indexOf(contatto);
+			if (index  > -1){ $scope.contact_selected.splice(index, 1); }
+		}
+	}
+	
+	$scope.sincronizza = function(){
+		$ionicLoading.show({
+			template: '<ion-spinner></ion-spinner>',
+			noBackdrop: false
+		});
+		
+		Rubrica.sincro().then(function(response){
+			$ionicLoading.hide();
+			$scope.contatti = response.telefono;
+			_contatti = response.telefono;
+			$scope.wmc = response.wmc;
+			$scope.contact_selected = [];
+		}, function(error){
+			$ionicLoading.hide();
+			$cordovaToast.show(error.message,'short','bottom');
+		});
+	}
+	
+	$scope.saveContactFromWmc = function(contatto){
+		Rubrica.saveContact(contatto).then(function(response){			
+			if (response){ $scope.wmc.splice($scope.wmc.indexOf(contatto), 1); }
+		}, function(error){
+			console.log(JSON.stringify(error));
+		});
+	};
+	
+	$scope.showOptions = function($event){
+		$scope.popover = $ionicPopover.fromTemplateUrl('templates/partial/rubrica/nav_menu_options.html', {
+			scope: $scope
+		}).then(function(popover){
+			$scope.popover = popover;
+			$scope.popover.show($event);
+		});
+	}
+	
+	$scope.refresh = function(){
+		Rubrica.sincro().then(function(response){
+			$ionicLoading.hide();
+			$scope.contatti = response.telefono;
+			_contatti = response.telefono;
+			$scope.wmc = response.wmc;
+			$scope.contact_selected = [];
+			$scope.$broadcast('scroll.refreshComplete');
+		}, function(error){
+			$ionicLoading.hide();
+			$cordovaToast.show(error,'short','bottom');
+			$scope.$broadcast('scroll.refreshComplete');
+		});
+		
+	}
+	
+	$scope.uploadContact = function (){
+		if ($scope.contact_selected.length == 0){
+			$cordovaToast.show('Nessun contatto selezionato','short','bottom');
+			return;
+		}
+		
+		$ionicLoading.show({
+			template: '<ion-spinner></ion-spinner>',
+			noBackdrop: false
+		});
+		
+		$ionicLoading.hide();
+	}
+	
+	$scope.showFilter = function (){
+		if ($scope.contatti.length == 0){
+			$cordovaToast.show("Non ci sono contatti da filtrare",'short','bottom');
+			return true;
+		}
+		
+		var confirmPopup = $ionicPopup.confirm({
+			title: 'Filtra contatti per',
+			templateUrl: "templates/partial/rubrica/filter.html",
+			scope: $scope,
+			okText: 'Filtra',
+			cancelText : 'Pulisci'
+		});
+
+		confirmPopup.then(function(ok){
+			for (var i in $scope.contatti){ $scope.contatti[i].checked = false; }
+			$scope.contact_selected = [];
+			if(ok){
+				$ionicLoading.show({
+					template: '<ion-spinner></ion-spinner>',
+					noBackdrop: false
+				});
+				$scope.contatti = _contatti;
+				if ($scope.filter.value != "1" && $scope.filter.value != "2"){
+					$scope.filter.value = "0";
+					$ionicLoading.hide();
+				}else if ($scope.filter.value == "1"){
+					//Filtro per email
+					var list = new Array();
+					for (var i = 0; i < $scope.contatti.length; i++){
+						if ($scope.contatti[i].emails.length > 0){ list.push($scope.contatti[i]); }
+					}
+					$scope.contatti = list;
+					$ionicLoading.hide();
+					$cordovaToast.show(list.length + " contatti trovati",'short','bottom');
+				}else if ($scope.filter.value == "2"){
+					//Filtro per numero
+					var list = new Array();
+					for (var i = 0; i < $scope.contatti.length; i++){
+						if ($scope.contatti[i].numbers.length > 0){ list.push($scope.contatti[i]); }
+					}
+					
+					$scope.contatti = list;
+					$ionicLoading.hide();
+					$cordovaToast.show(list.length + " contatti trovati",'short','bottom');
+				}
+			}else {
+				$scope.contatti = _contatti;
+				$scope.filter.value = "0";
+				$ionicLoading.hide();
+			}
+		});
+	}
+	
+	//Cleanup the popover when we're done with it!
+	$scope.$on('$destroy', function() {
+		$scope.popover.remove();
+	});
+	
+	// Execute action on hide popover
+	$scope.$on('popover.hidden', function() {
+		// Execute action
+	});
+	
+	// Execute action on remove popover
+	$scope.$on('popover.removed', function() {
+		// Execute action
+	});
+	
+})

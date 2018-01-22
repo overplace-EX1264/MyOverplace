@@ -1,0 +1,1 @@
+angular.module("help.controllers",[]).controller("HelpCtrl",["$scope","Help",function(l,e){l.listModuli=e.starter(),l.isActive=function(l){return l.active}}]).controller("HelpDetailCtrl",["$scope","$stateParams","Help",function(l,e,t){l.helpDetail=t.getModulo(e.id)}]);

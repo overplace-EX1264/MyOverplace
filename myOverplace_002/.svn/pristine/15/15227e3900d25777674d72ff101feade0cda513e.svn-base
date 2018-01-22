@@ -1,0 +1,1 @@
+angular.module("notifiche.controllers",[]).controller("NotificheCtrl",["$scope","Notifiche",function(t,e){t.notifiche_list=e.getList(),t.delete=function(t){e.delete(t)}}]).controller("NotificheDetailCtrl",["$scope","$stateParams","Notifiche",function(t,e,i){t.notifica=i.get(e.id)}]);

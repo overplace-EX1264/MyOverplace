@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "06c815f0-99f4-485b-bfc7-e7c1e40c6de0++84",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "06c815f0-99f4-485b-bfc7-e7c1e40c6de0++84" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "06c815f0-99f4-485b-bfc7-e7c1e40c6de0++84" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "40B5F565-77AB-42E0-9E3F-D0EB37AFC2EF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "06c815f0-99f4-485b-bfc7-e7c1e40c6de0++84" : "myOverplace_002\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "myOverplace",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "platforms\/ios\/myOverplace.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/10.2.0.9\/svn\/app_myoverplace_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "06c815f0-99f4-485b-bfc7-e7c1e40c6de0++84"
+    }
+  ]
+}

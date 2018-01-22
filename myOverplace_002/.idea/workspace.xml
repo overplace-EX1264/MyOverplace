@@ -1,0 +1,1444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="55e8596c-3ba6-4a72-b8b0-418ccee15478" name="Default" comment="Failed commit: Default">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/app.js" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/fetch.json" afterPath="$PROJECT_DIR$/plugins/fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/style.css" />
+    </list>
+    <list id="b8932457-fe4f-40ad-958a-8399fdedaed9" name="Failed commit: Default" comment="Failed commit: Default">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="c8afcb2a-46da-4d16-a75c-20943d8e6449" name="Failed commit: Failed commit: Default" comment="Failed commit: Default">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/amazon/ADMHandlerActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/amazon/ADMMessageHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/amazon/PushPlugin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/ios/AppDelegate+notification.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/ios/AppDelegate+notification.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/ios/PushPlugin.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/ios/PushPlugin.m" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/windows8/PushPluginProxy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/amazon" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/android/libs/gcm.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/ios" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/android/libs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/windows8" afterPath="" />
+    </list>
+    <list id="2ea5225a-d6ff-433d-81a4-aebd7fd857e6" name="Failed commit: Failed commit: Failed commit: Default" comment="Failed commit: Default">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/wp8/PushPlugin.cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/wp8/Newtonsoft.Json.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/wp8" afterPath="" />
+    </list>
+    <ignored path="app_myoverplace.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="app_myoverplace" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.53092784">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/plugins/de.appplant.cordova.plugin.local-notification/src/android/LocalNotification.java" />
+        <option value="$PROJECT_DIR$/platforms/android/src/de/appplant/cordova/plugin/localnotification/LocalNotification.java" />
+        <option value="$PROJECT_DIR$/platforms/android/src/com/plugin/gcm/GCMIntentService.java" />
+        <option value="$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/android/com/plugin/gcm/GCMIntentService.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/checkin.html" />
+        <option value="$PROJECT_DIR$/www/js/chat.js" />
+        <option value="$PROJECT_DIR$/www/templates/notiifche-detail.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche-detail.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/booking/delete-periodo.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/booking/delete-camera.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/booking/nuova-prenotazione.html" />
+        <option value="$PROJECT_DIR$/www/templates/convalide-detail.html" />
+        <option value="$PROJECT_DIR$/www/templates/chat-detail.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/prenotazioni/disdetta-utente.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/prenotazioni/new.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/prenotazioni/approved.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/recensioni/new-response.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/prenotazioni/delete.html" />
+        <option value="$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/www/templates/login.html" />
+        <option value="$PROJECT_DIR$/www/templates/tab-chat.html" />
+        <option value="$PROJECT_DIR$/scss/ionic.app.scss" />
+        <option value="$PROJECT_DIR$/www/templates/tab-notifiche.html" />
+        <option value="$PROJECT_DIR$/www/templates/tab-convalide.html" />
+        <option value="$PROJECT_DIR$/www/templates/convalide/checkin.html" />
+        <option value="$PROJECT_DIR$/www/templates/convalide/prenotazione.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/booking/disdetta-utente.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/booking/new.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/coupon/approved.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/coupon/new-coupon.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/coupon/rejected.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/crediti/esaurimento.html" />
+        <option value="$PROJECT_DIR$/www/templates/notifiche/recensioni/new.html" />
+        <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/platforms/android/build.gradle" />
+        <option value="$PROJECT_DIR$/platforms/android/CordovaLib/cordova.gradle" />
+        <option value="$PROJECT_DIR$/platforms/android/CordovaLib/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/www/lib/ionic/js/ionic.js" />
+        <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/templates/tabs.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/js/services.js" />
+        <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/templates/tab-impostazioni.html" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages Scope="false" />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages Scope="false" />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app_myoverplace">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_myoverplace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1954023" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="242" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="242" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="242" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="75" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="116" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="916" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="193" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="192" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="193" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="193" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="194" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="868" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\app_myoverplace\www\img" />
+      <recent name="D:\wamp\www\app_myoverplace\www\templates\notifiche\recensioni" />
+      <recent name="D:\wamp\www\app_myoverplace\www\templates\notifiche\prenotazioni" />
+      <recent name="D:\wamp\www\app_myoverplace\www\templates\notifiche\coupon" />
+      <recent name="D:\wamp\www\app_myoverplace\www\templates\notifiche\booking" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\app_myoverplace\www\img" />
+      <recent name="D:\wamp\www\app_myoverplace\www\templates\notifiche\recensioni" />
+      <recent name="D:\wamp\www\app_myoverplace\www\templates\notifiche\prenotazioni" />
+      <recent name="D:\wamp\www\app_myoverplace\www\templates\notifiche\booking" />
+      <recent name="D:\wamp\www\app_myoverplace\www\sound" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\assets\www\img\ionic.png</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\build\generated\source\buildConfig\debug\com\ionicframework</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\build\generated\source\buildConfig\debug\com\ionicframework\myoverplace342354</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\build\generated\source\buildConfig\debug\com\ionicframework\myoverplace342354\BuildConfig.java</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\build\generated\source\r\debug\com\ionicframework</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\build\generated\source\r\debug\com\ionicframework\myoverplace342354</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\build\generated\source\r\debug\com\ionicframework\myoverplace342354\Manifest.java</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\build\generated\source\r\debug\com\ionicframework\myoverplace342354\R.java</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\build\outputs\apk\android-debug-unaligned.apk</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\platforms\android\build\outputs\apk\android-debug.apk</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\CONTRIBUTING.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\LICENSE</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\NOTICE</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\README.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\RELEASENOTES.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\de</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\de\index.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\es</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\es\index.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\fr</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\fr\index.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\it</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\it\index.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\ja</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\ja\index.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\ko</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\ko\index.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\pl</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\pl\index.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\ru</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\ru\index.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\zh</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\doc\zh\index.md</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\package.json</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\plugin.xml</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\src</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\src\ios</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\src\ios\CDVLogger.h</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\src\ios\CDVLogger.m</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\src\ubuntu</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\src\ubuntu\console.cpp</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\src\ubuntu\console.h</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\src\wp</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\src\wp\DebugConsole.cs</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\www</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\www\console-via-logger.js</PATH>
+          <PATH vcs="svn" revision="169">D:\wamp\www\app_myoverplace\plugins\cordova-plugin-console\www\logger.js</PATH>
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_PROJECT_ID" value="Please select a project..." />
+      <option name="IS_VALID_CLOUD_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_SELECTION_ERROR" value="Matrix configuration not specified" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_PROJECT_ID" value="Please select a project..." />
+      <option name="IS_VALID_CLOUD_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_SELECTION_ERROR" value="Matrix configuration not specified" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AppEngineRunConfiguration" factoryName="App Engine DevAppServer">
+      <module name="" />
+      <setting name="serverAddress" value="" />
+      <setting name="sdkPath" value="" />
+      <setting name="serverPort" value="" />
+      <setting name="vmArgs" value="" />
+      <setting name="warPath" value="" />
+      <setting name="sync" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
+    <configuration>C:\Users\Gabriele\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\wamp\www\app_myoverplace" />
+          <option name="myCopyRoot" value="D:\wamp\www\app_myoverplace" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\wamp\www\app_myoverplace\.idea" />
+          <option name="myCopyRoot" value="D:\wamp\www\app_myoverplace\.idea" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\wamp\www\app_myoverplace" />
+          <option name="myCopyRoot" value="D:\wamp\www\app_myoverplace" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55e8596c-3ba6-4a72-b8b0-418ccee15478" name="Default" comment="" />
+      <created>1434011319056</created>
+      <option name="number" value="Default" />
+      <updated>1434011319056</updated>
+    </task>
+    <task id="LOCAL-00021">
+      <created>1434445595106</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1434445595106</updated>
+    </task>
+    <task id="LOCAL-00022">
+      <created>1434445742105</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1434445742105</updated>
+    </task>
+    <task id="LOCAL-00023">
+      <created>1434445801103</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1434445801103</updated>
+    </task>
+    <task id="LOCAL-00024">
+      <created>1434451392105</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1434451392105</updated>
+    </task>
+    <task id="LOCAL-00025">
+      <created>1434544469126</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1434544469127</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Failed commit: Default">
+      <created>1434557498102</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1434557498102</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Failed commit: Default">
+      <created>1434617193159</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1434617193159</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Failed commit: Default">
+      <created>1434632484207</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1434632484207</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Failed commit: Default">
+      <created>1434632702104</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1434632702104</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Failed commit: Default">
+      <created>1434634540108</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1434634540108</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Failed commit: Default">
+      <created>1434698459160</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1434698459160</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Failed commit: Default">
+      <created>1434705812103</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1434705812103</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Failed commit: Default">
+      <created>1434711787104</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1434711787104</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Failed commit: Default">
+      <created>1434723947104</created>
+      <option name="number" value="00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1434723947104</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Failed commit: Default">
+      <created>1434730138103</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1434730138103</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Failed commit: Default">
+      <created>1434980501120</created>
+      <option name="number" value="00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1434980501120</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Failed commit: Default">
+      <created>1434988791111</created>
+      <option name="number" value="00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1434988791111</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Failed commit: Default">
+      <created>1435070509126</created>
+      <option name="number" value="00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1435070509126</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Failed commit: Default">
+      <created>1435070599103</created>
+      <option name="number" value="00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1435070599103</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Failed commit: Default">
+      <created>1435071398104</created>
+      <option name="number" value="00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1435071398104</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Failed commit: Default">
+      <created>1435073618111</created>
+      <option name="number" value="00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1435073618111</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Failed commit: Default">
+      <created>1435152545128</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1435152545128</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Failed commit: Default">
+      <created>1435157371105</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1435157371105</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Failed commit: Default">
+      <created>1435242262131</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1435242262131</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Failed commit: Default">
+      <created>1435242355106</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1435242355106</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Failed commit: Default">
+      <created>1435310640136</created>
+      <option name="number" value="00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1435310640136</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Failed commit: Default">
+      <created>1435311047103</created>
+      <option name="number" value="00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1435311047103</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Failed commit: Default">
+      <created>1435314980107</created>
+      <option name="number" value="00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1435314980107</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Failed commit: Default">
+      <created>1435321398108</created>
+      <option name="number" value="00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1435321398108</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Failed commit: Default">
+      <created>1435322074105</created>
+      <option name="number" value="00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1435322074157</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Failed commit: Default">
+      <created>1435322172103</created>
+      <option name="number" value="00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1435322172104</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Failed commit: Default">
+      <created>1435324165108</created>
+      <option name="number" value="00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1435324165108</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Failed commit: Default">
+      <created>1435324217104</created>
+      <option name="number" value="00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1435324217104</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Failed commit: Default">
+      <created>1435327399108</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1435327399108</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Failed commit: Default">
+      <created>1435327469105</created>
+      <option name="number" value="00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1435327469105</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Failed commit: Default">
+      <created>1435332280110</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1435332280112</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Failed commit: Default">
+      <created>1435332719106</created>
+      <option name="number" value="00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1435332719106</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Failed commit: Default">
+      <created>1435332747105</created>
+      <option name="number" value="00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1435332747106</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Failed commit: Default">
+      <created>1435570518125</created>
+      <option name="number" value="00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1435570518142</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Failed commit: Default">
+      <created>1435570526104</created>
+      <option name="number" value="00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1435570526104</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Failed commit: Default">
+      <created>1435574566122</created>
+      <option name="number" value="00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1435574566123</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Failed commit: Default">
+      <created>1435574602108</created>
+      <option name="number" value="00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1435574602109</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Failed commit: Default">
+      <created>1435574628105</created>
+      <option name="number" value="00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1435574628105</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Failed commit: Default">
+      <created>1435829512138</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1435829512157</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Failed commit: Default">
+      <created>1435830493240</created>
+      <option name="number" value="00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1435830493240</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Failed commit: Default">
+      <created>1435914848189</created>
+      <option name="number" value="00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1435914848190</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Failed commit: Default">
+      <created>1435915003101</created>
+      <option name="number" value="00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1435915003101</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Failed commit: Default">
+      <created>1435917891113</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1435917891113</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Failed commit: Default">
+      <created>1435920644121</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1435920644122</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.48560768" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5143923" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.48294243" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2725275" sideWeight="0.48614073" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18351649" sideWeight="0.5063966" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14872068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="59" width="480" height="932" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32939914" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Failed commit: Default" />
+    <option name="LAST_COMMIT_MESSAGE" value="Failed commit: Default" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/ionic.app.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/scss/_bar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/scss/_button.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14166667">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/ionic.app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.96">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-notifiche.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-convalide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.961538">
+          <caret line="55" column="115" selection-start-line="55" selection-start-column="115" selection-end-line="55" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-chat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.423077">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/notifiche-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.884615">
+          <caret line="36" column="72" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/convalide-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/chat-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/convalide/checkin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.807692">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/convalide/prenotazione.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68781304">
+          <caret line="34" column="67" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/notifiche/booking/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.085141905">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/notifiche/coupon/approved.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29048413">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/notifiche/coupon/new-coupon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.085141905">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/notifiche/coupon/rejected.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05676127">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/notifiche/crediti/esaurimento.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.085141905">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/notifiche/recensioni/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43238732">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/Example/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.76627713">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/Example/www/PushNotification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.296">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/notifiche/booking/disdetta-utente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/com.phonegap.plugins.PushPlugin/src/android/com/plugin/gcm/GCMIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50246304">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ionic.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56309146">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.02681388">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/cordova.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72397476">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42902207">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/android/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7933754">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/lib/ionic/js/ionic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.2">
+          <caret line="8598" column="8" selection-start-line="8598" selection-start-column="8" selection-end-line="8598" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/ionic.app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6845426">
+          <caret line="5258" column="16" selection-start-line="5258" selection-start-column="8" selection-end-line="5258" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45583597">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25164473">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/tab-impostazioni.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32894737">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="99" column="49" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="128" column="25" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30756578">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53092784">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1954023" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 22 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1954023" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>app_myoverplace</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1954023" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

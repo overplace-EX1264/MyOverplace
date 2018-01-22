@@ -1,0 +1,29 @@
+<div class="list list-inset">
+    <div class="item item-divider">
+        Condividi su
+    </div>
+    <div class="item item-checkbox" ng-if="soc.facebook && (hideFacebook == undefined || !hideFacebook) && !disableFacebook">
+        <label class="checkbox checkbox-calm">
+            <input type="checkbox" ng-model="obj.facebook" resettable>
+        </label>
+        Facebook
+    </div>
+    <div class="item item-checkbox" ng-if="(!soc.facebook || disableFacebook) && (hideFacebook == undefined || !hideFacebook)">
+        <label class="checkbox checkbox-stable">
+            <input type="checkbox" ng-click="alertSocial('facebook')" ng-disabled="warned.facebook">
+        </label>
+        Facebook
+    </div>
+    <div class="item item-checkbox" ng-if="soc.twitter && !disableTwitter">
+        <label class="checkbox checkbox-calm">
+            <input type="checkbox" ng-click="alertTwitter()" ng-model="obj.twitter" resettable>
+        </label>
+        Twitter
+    </div>
+    <div class="item item-checkbox" ng-if="!soc.twitter || disableTwitter">
+        <label class="checkbox checkbox-stable">
+            <input type="checkbox" ng-click="alertSocial('twitter')" ng-disabled="warned.twitter">
+        </label>
+        Twitter
+    </div>
+</div>

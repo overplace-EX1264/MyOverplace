@@ -1,0 +1,67 @@
+<ion-view view-title="Rubrica" ng-click="openPopover($event)">
+	<ion-nav-buttons side="right">
+		<button class="button button icon button-clear ion-android-more-vertical" ng-click="showOptions($event)"></button>
+	</ion-nav-buttons>
+	<ion-content class="rubrica-content">
+		
+		<ion-refresher pulling-text="Trascina per aggiornare..." on-refresh="refresh()"></ion-refresher>
+		
+		<div class="card">
+			<div class="item item-text-wrap text-center">
+				<i class="icon ion-android-people stable"></i>
+				<p class="stable">Carica nuovi contatti direttamente dalla tua rubrica</p>
+			</div>
+		</div>
+		
+		<div class="row" ng-if="contatti.length == 0">
+        	<div class="col col-50 col-offset-25">
+        		<button class="button button-block button-calm icon-left ion-android-sync" ng-click="sincronizza()">Sincronizza</button>
+        	</div>
+ 		</div>
+
+		<div class="row" ng-if="contatti.length > 0">
+        	<div class="col col-50 col-offset-25">
+        		<button class="button button-block button-calm icon-left ion-upload" ng-click="uploadContact()" ng-disabled="contact_selected.length == 0">Carica</button>
+        	</div>
+ 		</div>
+				
+				
+		<div class="list" ng-if="contatti.length > 0">
+			<div class="item item-divider">
+				Contatti
+			</div>
+			
+			<div class="item item-remove-animate item-icon-left rubrica-list" ng-repeat="contatto in contatti | orderBy:'name'">
+				<div class="icon">
+					<label class="checkbox">
+						<input type="checkbox" ng-model="contatto.checked" ng-checked="contatto.checked" ng-click="selectContact(contatto)" />
+					</label>
+				</div>
+				
+				<div ng-click="contactDetail(contatto, $event)">
+					<h2 ng-if="contatto.name != ''">{{contatto.name}}</h2>
+					<h2 ng-if="contatto.name == ''">Sconosciuto</h2>
+					<p ng-if="contatto.numbers.length > 0">{{contatto.numbers[0]}}</p>
+					<p ng-if="contatto.emails.length > 0">{{contatto.emails[0]}}</p>
+				</div>
+				<i ng-if="contatto.numbers.length > 0" class="ion-ios-telephone-outline"></i>
+				<i ng-if="contatto.emails.length > 0" class="ion-ios-email-outline"></i>
+			</div>
+		</div>
+		
+		<div class="list" ng-if="wmc.length > 0">
+			<div class="item item-divider">
+				Nuovi contatti dal wmc 
+			</div>
+			
+			<div class="item item-remove-animate item-icon-right rubrica-list" ng-repeat="contatto in wmc | orderBy:'nome'">
+				<div ng-click="saveContactFromWmc(contatto)">
+					<h2>{{contatto.nome}}</h2>
+					<p ng-if="contatto.telefono != ''">{{contatto.telefono}}</p>
+					<p ng-if="contatto.email != ''">{{contatto.email}}</p>
+					<i class="icon ion-android-person-add stable"></i>
+				</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>

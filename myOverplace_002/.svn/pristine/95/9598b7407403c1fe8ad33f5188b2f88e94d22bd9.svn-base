@@ -1,0 +1,1 @@
+angular.module("professional.controllers",[]).controller("ProfessionalCtrl",["$scope","Auth",function(o,t){var l=t.getUserData(null);o.isSupport=Object.keys(l.support).length>0,o.isSupport&&(o.support_phone=l.support.phone,o.support_email=l.support.email),o.call=function(o){window.location.href="tel:"+o},o.email=function(o){window.location.href="mailto:"+o}}]);

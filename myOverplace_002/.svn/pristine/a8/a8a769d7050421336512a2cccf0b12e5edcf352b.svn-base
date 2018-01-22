@@ -1,0 +1,81 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.ionic.keyboard": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "com.phonegap.plugin.mobile-accessibility": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "com.phonegap.plugins.PushPlugin": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "com.verso.cordova.clipboard": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-instagram-plugin": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-datepicker": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "nl.x-services.plugins.toast": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        },
+        "org.apache.cordova.statusbar": {
+            "PACKAGE_NAME": "com.overplace.myoverplace"
+        }
+    },
+    "dependent_plugins": {}
+}
