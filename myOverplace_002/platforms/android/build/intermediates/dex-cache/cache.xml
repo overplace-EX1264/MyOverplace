@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\wamp\www\app_my_overplace_news\platforms\android\libs\gcm.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="D:\wamp\www\app_my_overplace_news\platforms\android\build\intermediates\pre-dexed\debug\gcm-0a89149e6d7f40ddd7a8325ebc72d4773df0f04b.jar" />
+    </item>
+    <item
+        jar="D:\wamp\www\app_my_overplace_news\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fcdf0fbae89dbbd6df000aa98a0b2f1560ba651d">
+        <dex dex="D:\wamp\www\app_my_overplace_news\platforms\android\build\intermediates\pre-dexed\debug\classes-e787fe3f31081985baa2b45150ac90fbd6b8dcfb.jar" />
+    </item>
+    <item
+        jar="D:\wamp\www\app_my_overplace_news\platforms\android\libs\android-support-v13.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f5fa2183e286730a81f3076f19022539902a24f3">
+        <dex dex="D:\wamp\www\app_my_overplace_news\platforms\android\build\intermediates\pre-dexed\debug\android-support-v13-d3c30e31642834d6e9a6716656653f84ad3aac0f.jar" />
+    </item>
+
+</items>

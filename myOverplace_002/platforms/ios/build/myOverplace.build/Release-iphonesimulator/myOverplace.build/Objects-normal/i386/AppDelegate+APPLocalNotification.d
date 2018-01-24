@@ -1,0 +1,16 @@
+dependencies: \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/myOverplace/myOverplace-Prefix.pch \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/myOverplace/Plugins/de.appplant.cordova.plugin.local-notification/AppDelegate+APPLocalNotification.m \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/myOverplace/Plugins/de.appplant.cordova.plugin.local-notification/AppDelegate+APPLocalNotification.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/myOverplace/Classes/AppDelegate.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/admin/Documents/siti_web_sorgente/myOverplace_002/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h

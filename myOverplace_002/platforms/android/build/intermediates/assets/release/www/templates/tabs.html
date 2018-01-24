@@ -1,0 +1,23 @@
+<ion-tabs class="tabs-icon-only tabs-color-active-calm tabs-striped tabs-top" ng-controller="TabsCtrl" ng-class="{'tabs-item-hide': $root.hideTabs}">
+
+    <!-- Notifiche Tab -->
+    <ion-tab title="Notifiche" icon-off="ion-ios-bell-outline" icon-on="ion-ios-bell" badge="badges.notifiche" badge-style="badge-assertive" href="#/tab/notifiche">
+        <ion-nav-view name="tab-notifiche"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Chat Tab -->
+    <ion-tab title="Chat" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" badge="badges.chat" badge-style="badge-assertive" href="#/tab/chat">
+        <ion-nav-view name="tab-chat"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Convalide Tab -->
+    <ion-tab title="Convalide" icon-off="ion-ios-checkmark-outline" icon-on="ion-ios-checkmark" badge="badges.convalide" badge-style="badge-assertive" href="#/tab/convalide">
+        <ion-nav-view name="tab-convalide"></ion-nav-view>
+    </ion-tab>
+
+    <!-- Impostazioni Tab -->
+    <ion-tab title="Impostazioni" icon-off="ion-ios-settings" icon-on="ion-ios-settings-strong" href="#/tab/impostazioni">
+        <ion-nav-view name="tab-impostazioni"></ion-nav-view>
+    </ion-tab>
+
+</ion-tabs>

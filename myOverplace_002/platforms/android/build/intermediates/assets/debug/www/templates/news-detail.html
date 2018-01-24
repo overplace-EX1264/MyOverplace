@@ -1,0 +1,78 @@
+<ion-view view-title="Dettaglio news">
+    <ion-content class="news-detail-content" afkl-image-container>
+				
+	    <div class="list card">
+	
+	        <div class="item item-icon-left">
+	        	<i class="icon ion-quote calm"></i>
+	            <h2>{{news.titolo}}</h2>
+	            <p>Pubblicata il {{news.data_inizio_pubblicazione | date:"dd/MM/yyyy 'alle' HH:mm"}}</p>
+	        </div>
+	        
+	        <div class="item item-body">
+	        	<div afkl-lazy-image="{{news.filename}}" class="afkl-lazy-wrapper"></div>
+	            <p class="angular-with-newlines" ng-bind-html="news.testo"></p>
+	        </div>
+	    
+	    	<div class="item tabs tabs-secondary tabs-icon-top">
+	    		<p class="tab-item" ng-class="{'positive': news.facebook == 1}"><i class="icon ion-social-facebook"></i>{{news.facebook == 1 ? 'Pubblicato' : 'Non pubblicato'}}</p>
+	    		<p class="tab-item" ng-class="{'positive': news.twitter == 1}"><i class="icon ion-social-twitter"></i>{{news.twitter == 1 ? 'Pubblicato' : 'Non pubblicato'}}</p>
+			</div>
+		
+		</div>
+	
+		<div class="row">
+			<div class="col col-50">
+				<a class="button button-block button-energized icon-left ion-edit" href="#/news/{{news.id}}/edit">Modifica</a>
+     		</div>
+     		<div class="col col-50">
+     			<button class="button button-block button-assertive icon-left ion-trash-a" ng-click="remove(news)">Elimina</button>
+     		</div>
+ 		</div>
+		
+	</ion-content>
+</ion-view>
+
+<!--
+<ion-view view-title="Dettaglio news">
+    <ion-content class="news-detail-content" afkl-image-container>
+    
+    	<ion-slide-box on-slide-changed="slideHasChanged($index)" auto-play="false" show-pager="false" active-slide="0">
+    
+			<ion-slide ng-repeat="news in news_list" href="#">
+				
+				<div class="list card">
+	
+			        <div class="item item-icon-left">
+			        	<i class="icon ion-quote calm"></i>
+			            <h2>{{news.titolo}}</h2>
+			            <p>Pubblicata il {{news.data_inizio_pubblicazione | date:"dd/MM/yyyy 'alle' HH:mm"}}</p>
+			        </div>
+			        
+			        <div class="item item-body">
+			        	<div afkl-lazy-image="{{news.filename}}" class="afkl-lazy-wrapper"></div>
+			            <p class="angular-with-newlines" ng-bind-html="news.testo"></p>
+			        </div>
+			    
+			    	<div class="item tabs tabs-secondary tabs-icon-top">
+			    		<p class="tab-item" ng-class="{'positive': news.facebook == 1}"><i class="icon ion-social-facebook"></i>{{news.facebook == 1 ? 'Pubblicato' : 'Non pubblicato'}}</p>
+			    		<p class="tab-item" ng-class="{'positive': news.twitter == 1}"><i class="icon ion-social-twitter"></i>{{news.twitter == 1 ? 'Pubblicato' : 'Non pubblicato'}}</p>
+					</div>
+				
+				</div>
+			
+				<div class="row">
+					<div class="col col-50">
+						<a class="button button-block button-energized icon-left ion-edit" href="#/tab/news/{{news.id}}/edit">Modifica</a>
+		     		</div>
+		     		<div class="col col-50">
+		     			<button class="button button-block button-assertive icon-left ion-trash-a" ng-click="remove(news)">Elimina</button>
+		     		</div>
+		 		</div>
+                
+            </ion-slide>
+            
+		</ion-slide-box>
+	</ion-content>
+</ion-view>
+-->

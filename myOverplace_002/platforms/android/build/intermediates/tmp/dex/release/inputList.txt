@@ -1,0 +1,4 @@
+D:\wamp\www\app_myoverplace\platforms\android\build\intermediates\classes\release
+D:\wamp\www\app_myoverplace\platforms\android\build\intermediates\pre-dexed\release\gcm-55de9b2f21df96dc8435a7031ec44cb9eb7c7e71.jar
+D:\wamp\www\app_myoverplace\platforms\android\build\intermediates\pre-dexed\release\classes-8eae63d2a8da59667a4ac06cc8f11a53b0b70e73.jar
+D:\wamp\www\app_myoverplace\platforms\android\build\intermediates\pre-dexed\release\android-support-v13-cdb2f1234962e186a5b3b8856ad7df8446a477e9.jar
